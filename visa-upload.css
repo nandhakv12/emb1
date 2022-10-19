@@ -1,0 +1,317 @@
+.navigation-links6-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links6-text {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links6-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links6-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links6-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links6-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links6-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links6-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links6-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links6-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.visa-upload-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.visa-upload-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.visa-upload-image {
+  height: 5rem;
+}
+.visa-upload-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.visa-upload-burger-menu {
+  display: none;
+}
+.visa-upload-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.visa-upload-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.visa-upload-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.visa-upload-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.visa-upload-image1 {
+  height: 2rem;
+}
+.visa-upload-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visa-upload-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.visa-upload-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.visa-upload-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.visa-upload-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.visa-upload-form {
+  width: 946px;
+  height: 780px;
+  position: relative;
+}
+.visa-upload-text1 {
+  top: 49px;
+  left: 227px;
+  position: absolute;
+  font-size: 24px;
+}
+.visa-upload-text2 {
+  top: 121px;
+  left: 272px;
+  position: absolute;
+  font-size: 24px;
+}
+.visa-upload-icon10 {
+  top: 54px;
+  left: 639px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.visa-upload-select {
+  top: 114px;
+  left: 419px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.visa-upload-icon12 {
+  top: 116px;
+  left: 640px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.visa-upload-text3 {
+  top: 193px;
+  left: 285px;
+  position: absolute;
+  font-size: 24px;
+}
+.visa-upload-icon14 {
+  top: 190px;
+  left: 643px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.visa-upload-select1 {
+  top: 182px;
+  left: 426px;
+  z-index: 100;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.visa-upload-text4 {
+  top: 251px;
+  left: 159px;
+  position: absolute;
+  font-size: 24px;
+}
+.visa-upload-icon16 {
+  top: 251px;
+  left: 430px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: 0px;
+}
+.visa-upload-icon18 {
+  top: 254px;
+  left: 644px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.visa-upload-select2 {
+  top: 50px;
+  left: 424px;
+  z-index: 100;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.visa-upload-navlink {
+  top: 345px;
+  left: 331px;
+  position: absolute;
+  text-decoration: none;
+}
+.visa-upload-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.visa-upload-image2 {
+  height: 5rem;
+  object-fit: cover;
+}
+.visa-upload-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.visa-upload-icon20 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.visa-upload-icon22 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.visa-upload-icon24 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 767px) {
+  .visa-upload-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .visa-upload-nav {
+    display: none;
+  }
+  .visa-upload-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .visa-upload-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .visa-upload-text5 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .visa-upload-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .visa-upload-mobile-menu {
+    padding: 16px;
+  }
+  .visa-upload-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .visa-upload-image2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .visa-upload-text5 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,511 @@
+.navigation-links4-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links4-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links4-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links4-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links4-text4 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links4-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links4-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links4-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links4-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links4-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links4-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.admin-register-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.admin-register-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-register-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgb(12, 165, 207) 100.00%);
+}
+.admin-register-image {
+  height: 5rem;
+}
+.admin-register-nav {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.admin-register-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admin-register-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.admin-register-burger-menu {
+  display: none;
+}
+.admin-register-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.admin-register-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.admin-register-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-register-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.admin-register-image1 {
+  height: 2rem;
+}
+.admin-register-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin-register-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.admin-register-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.admin-register-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.admin-register-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.admin-register-form {
+  width: 555px;
+  height: 666px;
+  position: relative;
+  align-self: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding-bottom: 2px;
+  background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgb(90, 139, 187) 100.00%);
+}
+.admin-register-text {
+  top: -1px;
+  left: 0px;
+  color: var(--dl-color-gray-500);
+  margin: auto;
+  position: absolute;
+  font-size: 50px;
+  text-align: center;
+  font-family: Times New Roman;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  text-transform: uppercase;
+}
+.admin-register-text01 {
+  top: 15%;
+  left: 10%;
+  margin: auto;
+  position: absolute;
+  font-family: Times New Roman;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.admin-register-textinput {
+  top: 20%;
+  left: 20%;
+  position: absolute;
+}
+.admin-register-text02 {
+  top: 28%;
+  left: 10%;
+  position: absolute;
+  text-align: left;
+  font-family: Times New Roman;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.admin-register-textinput1 {
+  top: 33%;
+  left: 20%;
+  position: absolute;
+}
+.admin-register-text03 {
+  top: 41%;
+  left: 10%;
+  position: absolute;
+  font-family: Times New Roman;
+}
+.admin-register-textinput2 {
+  top: 46%;
+  left: 20%;
+  position: absolute;
+}
+.admin-register-text04 {
+  top: 54%;
+  left: 10%;
+  position: absolute;
+  font-family: Times New Roman;
+}
+.admin-register-textinput3 {
+  top: 59%;
+  left: 20%;
+  position: absolute;
+}
+.admin-register-text05 {
+  top: 67%;
+  left: 10%;
+  position: absolute;
+  font-family: Times New Roman;
+}
+.admin-register-textinput4 {
+  top: 72%;
+  left: 20%;
+  position: absolute;
+}
+.admin-register-select {
+  top: 71%;
+  left: 8%;
+  position: absolute;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.admin-register-navlink {
+  top: 80%;
+  left: 40%;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  font-family: Times New Roman;
+  text-decoration: none;
+}
+.admin-register-image2 {
+  top: 0px;
+  right: 3px;
+  width: 186px;
+  height: 664px;
+  position: absolute;
+  object-fit: cover;
+}
+.admin-register-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: 0px;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.admin-register-container3 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admin-register-logo {
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-register-image3 {
+  height: 8rem;
+}
+.admin-register-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admin-register-container4 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admin-register-product-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10rem;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-register-text06 {
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.admin-register-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.admin-register-text08 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.admin-register-text09 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.admin-register-company-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-register-text11 {
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.admin-register-text12 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.admin-register-text13 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.admin-register-text14 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.admin-register-container5 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-register-contact {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-register-text16 {
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.admin-register-text17 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.admin-register-socials {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-register-text19 {
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.admin-register-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admin-register-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-unit);
+}
+.admin-register-icon12 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-unit);
+}
+.admin-register-icon14 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.admin-register-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-gray-900);
+}
+.admin-register-text20 {
+  align-self: center;
+}
+@media(max-width: 991px) {
+  .admin-register-footer {
+    flex-direction: column;
+  }
+  .admin-register-container4 {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .admin-register-product-container {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 767px) {
+  .admin-register-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .admin-register-nav {
+    display: none;
+  }
+  .admin-register-btn-group {
+    display: none;
+  }
+  .admin-register-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .admin-register-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .admin-register-container3 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .admin-register-logo {
+    align-items: center;
+  }
+  .admin-register-image3 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .admin-register-links-container {
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .admin-register-container4 {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .admin-register-product-container {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 479px) {
+  .admin-register-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .admin-register-mobile-menu {
+    padding: 16px;
+  }
+  .admin-register-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .admin-register-container3 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .admin-register-image3 {
+    margin-bottom: 0px;
+  }
+  .admin-register-links-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .admin-register-container4 {
+    margin-right: 0px;
+  }
+  .admin-register-container5 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+  .admin-register-contact {
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .admin-register-text20 {
+    text-align: center;
+  }
+}
